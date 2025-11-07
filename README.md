@@ -9,12 +9,12 @@
 <h2>Quelles sont les limites de ce patron dans les environnements multithreadés ? </h2>
     Dans un contexte de multithreading, il est possible que deux threads exécutent simultanément instance = new Singleton(), ce qui entraînerait la création de deux instances différentes.
 
-#Exercice 2 : Utilisation du patron Fabrique (Factory Method)
+# Exercice 2 : Utilisation du patron Fabrique (Factory Method)
 
 ![URL image](https://github.com/fe045001-netizen/Tp16C/blob/67cf5175ff2e8471d45717bbee56be79bcaec943/images/Exercice2.png)
 
 <h2 >Quelle est l’utilité du pattern Factory dans un contexte d’extension future ?</h2>
-<p>Le <strong>pattern Factory</strong> Permet de créer des objets sans connaître leur classe exacte par la suite facilite l’ajout de nouveaux types d’objets sans casser le code existant.
-Comment rendre le système plus modulaire avec une classe abstraite FabriqueAbstraite ?
+Le <strong>pattern Factory</strong> Permet de créer des objets sans connaître leur classe exacte par la suite facilite l’ajout de nouveaux types d’objets sans casser le code existant.
+<h2>Comment rendre le système plus modulaire avec une classe abstraite FabriqueAbstraite ?</h2>
   Chaque fabrique  (FabriqueCercle, FabriqueCarre, FabriqueTriangle) tire sa descendance de FabriqueAbstraite, par la suiteLe client ne travaille qu'avec FabriqueAbstraite et a la possibilité de modifier la fabrique lors de l'exécution.
-</p>  
+
