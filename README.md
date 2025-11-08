@@ -17,6 +17,7 @@
 Le <strong>pattern Factory</strong> Permet de créer des objets sans connaître leur classe exacte par la suite facilite l’ajout de nouveaux types d’objets sans casser le code existant.
 <h2>Comment rendre le système plus modulaire avec une classe abstraite FabriqueAbstraite ?</h2>
   Chaque fabrique  (FabriqueCercle, FabriqueCarre, FabriqueTriangle) tire sa descendance de FabriqueAbstraite, par la suiteLe client ne travaille qu'avec FabriqueAbstraite et a la possibilité de modifier la fabrique lors de l'exécution.
+  
 # Exercice 3 : Application du patron Observateur (Observer)
 
 ![URL image](https://github.com/fe045001-netizen/Tp16C/blob/67cf5175ff2e8471d45717bbee56be79bcaec943/images/Exercice3.png)
